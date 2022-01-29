@@ -22,5 +22,5 @@ def look_up():
 #videoid="3dHJ00mAQAY"
 #print(get_comments(videoid))
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=8080, debug=True)
     #app.run()
