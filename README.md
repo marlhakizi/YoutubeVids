@@ -1,4 +1,4 @@
-# YoutubeVids
+# YoutubeVideos
 
 [![Python 3.8](https://github.com/marlhakizi/YoutubeVids/actions/workflows/main.yml/badge.svg)](https://github.com/marlhakizi/YoutubeVids/actions/workflows/main.yml)
 
