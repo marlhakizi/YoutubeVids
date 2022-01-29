@@ -4,8 +4,10 @@
 
 
 
-**YoutubeVids** is a Flask Microservice that takes in youtube channel id and returns the most viewed video from the channel including: likecounts, viewcounts, commentcounts, and published date.
+**YoutubeVids** is a Flask Microservice that takes in a youtube channel id and returns the most viewed video from the channel including: likecounts, viewcounts, commentcounts, and published date. 
+
 This Microservice was built using:
+
 - Flask
 
 - App Runner
