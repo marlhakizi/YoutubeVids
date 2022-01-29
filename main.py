@@ -1,6 +1,6 @@
 from flask import Flask,request,render_template
 from flask import jsonify
-
+import uvicorn
 from scraper import  get_channelinfo
 
 
@@ -22,5 +22,6 @@ def look_up():
 #videoid="3dHJ00mAQAY"
 #print(get_comments(videoid))
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080, debug=True)
+    #app.run(host='0.0.0.0', port=8080, debug=True)
+    uvicorn.run(app, port=8080, host='0.0.0.0')
     #app.run()
