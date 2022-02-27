@@ -5,6 +5,7 @@
 
 
 `YoutubeVids` 2.0  is a Flask Microservice containerized in Docker. 
+
 -It takes in a word and returns the most relevant videos on a web application.
 
 -It can also take in a channel id and returns the most viewed video from the channel including: `likecounts`, `viewcounts`, `commentcounts`, and `published date`. 
