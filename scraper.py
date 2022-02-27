@@ -49,3 +49,8 @@ def get_channelinfo(chanid):
     videodictinfo = dict(zip(information, [time, title, stats]))
 
     return dict(zip([vidid], [videodictinfo]))
+def get_search_results(searching):
+    results = youtube.search().list(q=searching,part="snippet",maxResults=5,order="relevance",type='playlist').execute()
+    alltitles=[i['snippet']['title'] for i in results['items']]
+    allthumbnails=[i['snippet']['thumbnails']['high']['url'] for i in results['items']]
+    return alltitles,allthumbnails

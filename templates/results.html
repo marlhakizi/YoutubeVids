@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>{{title}}</title>
+    </head>
+    <body>
+        <h2>Search Results TO<h2>
+        <h2>{{search}}<h2>
+        <ol>
+        {% for item in dat: %}
+        <li style="color:black;font-size:17px;font-weight: bold">{{item}}</li>
+	{% endfor %}
+	</ol>
+	<ol>
+        {% for item in data: %}
+        
+        <img src='{{item}}' width="300" height="300">
+	{% endfor %}
+	</ol>
+    </body>
+</html>
