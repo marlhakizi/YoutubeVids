@@ -4,7 +4,9 @@
 
 
 
-`YoutubeVids` is a Flask Microservice that takes in a youtube channel id and returns the most viewed video from the channel including: `likecounts`, `viewcounts`, `commentcounts`, and `published date`. 
+`YoutubeVids` 2.0  is a Flask Microservice containerized in Docker. 
+-It takes in a word and returns the most relevant videos on a web application.
+-It can also take in a channel id and returns the most viewed video from the channel including: `likecounts`, `viewcounts`, `commentcounts`, and `published date`. 
 
 This Microservice was built using:
 
@@ -15,3 +17,5 @@ This Microservice was built using:
 - GitHub Actions
 
 - AWS Cloud 9
+
+- Docker image setup using ECR (Elastic Container Registry) and deployed using ECS (Elastic Container Services)
